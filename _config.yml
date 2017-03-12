@@ -63,11 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: BlueLake
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/hjwasai/hjblog.github.io.git
+  repository: https://github.com/hjnice/hjblog.github.io.git
   branch: master
