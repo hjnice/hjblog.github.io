@@ -22,7 +22,11 @@ function run() {
             exit(0);
         }
         if (exec('git push origin hexo').code !== 0) {
-            echo('Error: Git push failed');
+            echo('Error: Git push github failed');
+            exit(0);
+        }
+		if (exec('git push coding hexo').code !== 0) {
+            echo('Error: Git push coding failed');
             exit(0);
         }
         echo("==================Auto Backup Complete============================")

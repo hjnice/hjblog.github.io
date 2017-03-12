@@ -65,9 +65,16 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: BlueLake
 
-# Deployment
+stylus:
+  compress: true
+
+# Deployment repository: git@git.coding.net:hjweb/hjweb.coding.me.git
+#  repository: https://git.coding.net/hjweb/hjweb.coding.me.git
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repository: https://github.com/hjnice/hjblog.github.io.git
+  branch: master
+- type: git
+  repository: git@git.coding.net:hjweb/hjweb.coding.me.git
   branch: master
