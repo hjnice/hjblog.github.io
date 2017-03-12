@@ -16,6 +16,23 @@ menu:
     directory: atom.xml
     icon: fa-rss
 
+# Site
+#title: HJ-Blog
+#subtitle: 副标题
+#description: 网站简要描述
+#keywords: 网站关键字, key, key1, key2, key3
+#author: hj
+#language: zh-CN
+
+# About page 
+#about:
+#  photo_url: ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
+#  email: ## Your email 
+#  weibo_url: ## weibo photo 
+#  weibo_name: ## Your weibo's name 
+#  github_url: ## Your github'url 
+#  github_name: ## Your github'name 
+
 # Sidebar
 widgets:
   - search
