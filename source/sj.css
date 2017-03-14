@@ -1,13 +1,13 @@
 #logodiv{
-	height:100px;
+	height:85px;
 }
 #imglogo{
 	height:0;
 	position:absolute;
-	left:35%;
+	left:30%;
 }
 #textlogo{
-	margin-left:145px;
+	margin-left:110px;
         width:75%;
         text-align:center;
 }
