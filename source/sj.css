@@ -11,3 +11,13 @@
         width:75%;
         text-align:center;
 }
+#footer .line{
+	margin-left: -365px;
+}
+.info{
+	margin-left:211px;
+	margin-top:-100px;
+}
+#myicon {
+    margin-left: 111px;
+}
