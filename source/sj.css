@@ -11,13 +11,24 @@
         width:75%;
         text-align:center;
 }
-#footer .line{
-	margin-left: -365px;
+#footer .line {
+    width: 94%;
+    height: 14em;
+    margin-left: -30%;
 }
-.info{
-	margin-left:211px;
-	margin-top:-100px;
+.info {
+    font-family: "covered_by_your_graceregular";
+    -webkit-font-smoothing: antialiased;
+    /*-moz-osx-font-smoothing: grayscale;*/
+    font-size: 120%;
+    /* line-height: 0.3em; */
+    width: 90%;
+    margin-left: 35%;
+    margin-top: -27%;
+    color: #fff;
 }
-#myicon {
-    margin-left: 111px;
-}
+.social-font {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 40%;
