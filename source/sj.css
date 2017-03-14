@@ -1,0 +1,13 @@
+#logodiv{
+	height:100px;
+}
+#imglogo{
+	height:0;
+	position:absolute;
+	left:35%;
+}
+#textlogo{
+	margin-left:145px;
+        width:75%;
+        text-align:center;
+}
