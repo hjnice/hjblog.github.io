@@ -1,16 +1,4 @@
-#logodiv{
-	height:85px;
-}
-#imglogo{
-	height:0;
-	position:absolute;
-	left:25%;
-}
-#textlogo{
-	margin-left:82px;
-        width:75%;
-        text-align:center;
-}
+
 #footer .line {
     width: 94%;
     height: 14em;
