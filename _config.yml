@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://hujun.ga
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -94,7 +94,7 @@ stylus:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repository: https://github.com/hjnice/hjblog.github.io.git
+  repository: https://github.com/ihujun/hjblog.github.io.git
   branch: master
 - type: git
   repository: git@git.coding.net:hjweb/hjweb.coding.me.git
