@@ -26,3 +26,19 @@
     padding .1em 0 0 1em
 }
 */
+#item-img{
+	display: none;
+}
+#item-text {
+    width: inherit;
+    float: none;
+}
+#item-description {
+    color: #817c7c;
+    height: 90px;
+    overflow: hidden;
+}
+#item-title{
+	font-size: 20px;
+	text-align: center;
+}
