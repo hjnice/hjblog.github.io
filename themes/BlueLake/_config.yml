@@ -59,7 +59,7 @@ disqus: ## Your disqus_shortname, e.g. username
 
 # About page 
 about:
-  photo_url: img/author.png  ##Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
+  photo_url: https://upload.cc/i/hKfj4L.png ##Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
   email: 1450611414@qq.com ## Your email e.g.  zhenggchaoo@gmail.com
   weibo_url: http://weibo.com/575168888 ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
   weibo_name: 起网名伤脑细胞 ## Your weibo's name e.g.  秋过冬漫长

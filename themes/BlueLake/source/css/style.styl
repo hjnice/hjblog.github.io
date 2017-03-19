@@ -383,10 +383,10 @@ body
     font-weight bold
     font-size 22px 
     line-height: 1.1
+
     a
       color: #40759B
-      &:hover 
-        text-decoration underline
+
   .post-meta
     padding: 0
     margin: 10px 0 0
@@ -989,3 +989,20 @@ table
     background: #40759b !important
     &:hover 
       background: #608CB7 !important
+
+/* myanimate */
+.myanimate
+  position: relative
+  &:before
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 100%;
+    background: #40759b
+    transform: scale(0);
+    transition: all 0.3s;
+  &:hover
+    &:before
+      transform: scale(1)
