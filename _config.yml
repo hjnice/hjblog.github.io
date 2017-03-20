@@ -115,7 +115,7 @@ stylus:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repository: https://github.com/ihujun/hjblog.github.io.git
+  repository: https://github.com/ihujun/ihujun.github.io.git
   branch: master
 - type: git
   repository: git@git.coding.net:hjweb/hjweb.coding.me.git

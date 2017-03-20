@@ -155,8 +155,9 @@ body
 
 /*layout-background*/
 #layout-background
-  //background-color: rgb(204, 236, 206)
-  background-color: #EFEFEF
+  //background-color: rgb(204, 236, 206)  //green
+  //background-color: #EFEFEF
+  background: none
 
 /* myheader */
 #myheader
@@ -231,10 +232,11 @@ body
     a 
       color:#333
       &:hover 
-        color: #40759b
+        color: #000
+        background: #e6e6e6
         text-decoration underline
     .widget-title,.comments-title
-      color: #40759b
+      color: #556
       line-height: 2.7
       margin-top: 0
       font-size: 16px
@@ -258,7 +260,7 @@ body
         text-overflow: ellipsis
     .category-list-count
       padding-left: 5px
-      color: #40759b
+      color: #333
       &:before
         content: "("
       &:after
@@ -376,16 +378,17 @@ body
   border: 1px solid #ccc
   .post-title
     margin: 0
-    color: #40759b
-    text-align: left
+    //color: #40759b
+    color: #444
+    text-align: center
     border-bottom: 1px solid #D8E2EB
     padding-bottom: 10px
     font-weight bold
     font-size 22px 
-    line-height: 1.1
+    line-height: 24px
 
     a
-      color: #40759B
+      color: #444
 
   .post-meta
     padding: 0
@@ -438,7 +441,8 @@ body
     clear: left
     font-size: 15px
     line-height: 1.77
-    color: #333
+    ///color: #333
+    color: #566
     padding-top: 15px
     text-align: justify
     text-justify: distribute
@@ -459,9 +463,11 @@ body
         margin 0 5px
         padding: 0 5px
         font-family: Source Code Pro,Monaco,Menlo,Consolas,monospace
-        color: #4d4d4c
-        background: #eee
         font-size: .95em
+        //color: #4d4d4c
+        //background: #eee
+        color: #fff
+        background: #333
       a
         color: #40759b
         padding-bottom: 2px
@@ -699,6 +705,8 @@ body
   .post
    .post-title
      font-size 20px
+     a
+      color: #444
   .hidden_mid_and_down
     display: none !important
   .post-archive
@@ -835,6 +843,7 @@ body
     margin: 0 5px
     font-size: 20px
 /* read more*/
+/*
 .readmore
   a
     font-size: 14px
@@ -847,7 +856,25 @@ body
       padding-left: 0.15em
     &:hover
       -webkit-box-shadow: 0 -1px 4px #5483B1 inset
-      box-shadow: 0 -1px 4px #5483B1 inset   
+      box-shadow: 0 -1px 4px #5483B1 inset */
+
+/* my read more*/
+.readmore
+  text-align: center;
+  a
+    position:relative;
+    border: 2px solid #555;
+    color: #555
+    border-radius: 2px;
+    padding: 3px 15px;
+    background: transparent;
+    transition: all .5s ease;
+    aligin
+    &:hover
+      background: #333;
+      color: #eee;
+  
+
 /* post navigator*/
 .post-nav
   overflow: hidden
@@ -1000,7 +1027,7 @@ table
     bottom: -2px;
     height: 2px;
     width: 100%;
-    background: #40759b
+    background: #444
     transform: scale(0);
     transition: all 0.3s;
   &:hover

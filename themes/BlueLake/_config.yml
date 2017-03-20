@@ -75,6 +75,8 @@ links:
   - title: site-name3
     url: http://www.example3.com/
 
+canvas_nest: true
+
 
 # Miscellaneous
 show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.

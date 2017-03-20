@@ -35,6 +35,8 @@ html(lang='#{config.language}')
     link(rel='apple-touch-icon-precomposed', href=url_for('apple-touch-icon.png'))
     if config.feed
       link(rel='alternate', type=feed_type, href=url_for(config.feed.path))
+    if config.canvas_nest
+      script(type='text/javascript', src='//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js')
 
   body
     .body_container
