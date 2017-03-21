@@ -105,7 +105,11 @@ strong, b, em
   
 /* layout */
 body
+  /*
   font-family: "Source Code Pro", Tahoma, "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei Light", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif
+  */
+ 
+  font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   font-size: 14px
@@ -376,6 +380,14 @@ body
   //border: 1px solid #ADC2D7
   box-shadow: 2px 3px 3px #ccc
   border: 1px solid #ccc
+  .post-body
+    a 
+      color: #40759b
+      padding-bottom: 2px
+      word-break: break-all
+      &:hover
+        text-decoration: underline
+      
   .post-title
     margin: 0
     //color: #40759b
@@ -510,6 +522,7 @@ body
         word-break: break-all
         &:hover
           text-decoration: underline
+  
   .tags
     padding-bottom: 1em
     a
