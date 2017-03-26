@@ -15,6 +15,9 @@ menu:
   - page: rss
     directory: atom.xml
     icon: fa-rss
+  - page: 微博图床
+    icon: fa-weibo
+    directory: wbtc.html
 
 # Sidebar
 widgets:
@@ -75,7 +78,6 @@ links:
   - title: site-name3
     url: http://www.example3.com/
 
-canvas_nest: true
 
 
 # Miscellaneous
