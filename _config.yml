@@ -4,8 +4,9 @@
 
 # Site
 title: HJ-Blog
-subtitle: My Blog
-description:
+subtitle: Java爱好者
+description: Java,Java爱好者,java学习,前端,开发,后端
+keywords: Java,Java爱好者,java学习,前端,开发,后端
 author: Hu Jun
 language: zh-CN
 timezone:

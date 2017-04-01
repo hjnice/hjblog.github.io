@@ -3,8 +3,8 @@ title: MySql5.7安装图解
 date: 2017-03-22 14:37:35
 tags:
     - mysql
-categories:
-	- mysql
+    - database
+categories: mysql
 ---
 
 > MySQL 5.7 版本的安装及简单使用（图文教程）

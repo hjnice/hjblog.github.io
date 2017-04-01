@@ -1,7 +1,9 @@
 ---
 title: mysql基本常用语句
 date: 2017-03-25 13:52:43
-tags: mysql
+tags: 
+	- mysql
+	- database
 categories: mysql
 ---
 
