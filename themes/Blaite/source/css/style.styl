@@ -407,8 +407,8 @@ body
     color: #666;
     //float: right
     //display: inline
-    margin-left: 85%
     text-indent: .15em
+    margin-left: 67%;
     .category
       &:before
         font-family: "iconfont"!important
@@ -423,6 +423,8 @@ body
         font-family: "iconfont"!important
         content: "\e00d"
         padding-right: 0.3em
+  .index-meta
+  	margin-left: 85%
   .ds-thread-count
     padding: 0
     margin: 10px 0 0
@@ -453,13 +455,12 @@ body
     clear: left
     font-size: 15px
     line-height: 1.77
-    color: #888
-    padding-top: 10px
+    color: #444
+    padding-top: 21px
     text-align: justify
     text-justify: distribute
     word-break: normal
-    overflow: hidden
-    height: 4em
+    
     //padding-top: inherit
     h2
       font-size: 18px        
@@ -527,7 +528,11 @@ body
         word-break: break-all
         &:hover
           text-decoration: underline
-  
+  .index-content
+    overflow: hidden
+    height: 4em
+    color: #888
+    padding-top: 10px
   .tags
     padding-bottom: 1em
     a
@@ -719,16 +724,18 @@ body
 
   //.body_container
   #layout
-    padding: 0 30px
-  .post
-   .post-title
-     font-size 20px
-     a
-      color: #444
-   .post-meta
+     padding: 0 30px
+   .post
+    .post-title
+      font-size 20px
+      a
+       color: #444
+   	.post-meta
+   	  margin-left: 0;
+    .index-meta
    	  margin-left: 70%
-   .post-content
-   	  padding-top: 3px
+    .post-content
+   	  padding-top: 15px;
   .hidden_mid_and_down
     display: none !important
   .post-archive
@@ -744,10 +751,8 @@ body
   .content_container
     padding-right: 0
   //.body_container
-  .post-meta
-   	  margin-left: 68%
   .post-content
-   	  padding-top: 3px
+   	  padding-top: 15px;
   #layout
     padding: 0 20px
   .post-archive
@@ -767,6 +772,10 @@ body
       width: 60px
       border-radius: 15px 15px 0 15px
       font-size: 12px
+  .post-meta
+   	  margin-left: 0;
+  .index-meta
+   	  margin-left: 68%
 @media print,screen and (max-width: 25em) 
   #nav-menu
     a
@@ -777,9 +786,11 @@ body
    .post-title
      font-size 18px
    .post-meta
+   	  margin-left: 0;
+   .index-meta
    	  margin-left: 66%
    .post-content
-   	  padding-top: 3px
+   	  padding-top: 15px;
   .post-archive
     padding: 0
   .archive-wrap
