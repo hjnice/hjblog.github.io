@@ -8,9 +8,8 @@ tags:
 	- dbcp
 categories: jdbc
 ---
-## DBCP（DataBase Connection Pool）数据库连接池的使用
-<br>
-### 首先下载[commons.dbcp.jar](http://commons.apache.org/proper/commons-dbcp/download_dbcp.cgi)和[commons.pool.jar](http://commons.apache.org/proper/commons-pool/download_pool.cgi)文件
+连接池是创建和管理一个连接的缓冲池的技术，这些连接准备好被任何需要它们的线程使用。
+首先下载[commons.dbcp.jar](http://commons.apache.org/proper/commons-dbcp/download_dbcp.cgi)和[commons.pool.jar](http://commons.apache.org/proper/commons-pool/download_pool.cgi)文件
 
 <!-- more -->
 ```java

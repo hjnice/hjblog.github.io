@@ -7,12 +7,12 @@ tags:
 categories: mysql
 ---
 
-> MySQL 5.7 版本的安装及简单使用（图文教程）
-
+MySQL 5.7 版本的安装及简单使用（图文教程）
+<!-- more -->
 
 ### 第一步，下载MySql
 到[MySql的官网](https://www.mysql.com/)点击`Downloads–>Community–>MySQL on Windows–>MySQL Installer`下载MySql安装包，然后双击安装
-<!-- more -->
+
 ### 第二步，安装及简单配置
 ![](https://upload.cc/i/HRfh4i.png)
 

@@ -203,7 +203,7 @@ body
 #nav-menu
   margin: 20px 0
   //padding: 0
-  padding: 1%
+  padding: 0.7%
   position: absolute
   right: 0
   //top: 0
@@ -370,15 +370,15 @@ body
 
 /* post */
 .post
-  padding: 25px
+  padding: 22px
   background: #FFF
-  margin-top: 25px
+  margin-top: 22px
   border-radius: 4px
   -webkit-box-shadow: 1px 2px 3px #ADC2D7
   //box-shadow: 1px 2px 3px #ADC2D7
   //border: 1px solid #ADC2D7
   box-shadow: 2px 3px 3px #ccc
-  border: 1px solid #ccc
+  //border: 1px solid #ccc
   .post-body
     a 
       color: #40759b
@@ -391,11 +391,11 @@ body
     margin: 0
     //color: #40759b
     color: #444
-    text-align: center
+    //text-align: center
     border-bottom: 1px solid #D8E2EB
     padding-bottom: 10px
     font-weight bold
-    font-size 26px 
+    font-size 22px 
     line-height: 24px
 
     a
@@ -405,8 +405,9 @@ body
     padding: 0
     margin: 10px 0 0
     color: #666;
-    float: right
-    display: inline
+    //float: right
+    //display: inline
+    margin-left: 85%
     text-indent: .15em
     .category
       &:before
@@ -452,11 +453,14 @@ body
     clear: left
     font-size: 15px
     line-height: 1.77
-    color: #666
-    padding-top: 20px
+    color: #888
+    padding-top: 10px
     text-align: justify
     text-justify: distribute
     word-break: normal
+    overflow: hidden
+    height: 4em
+    //padding-top: inherit
     h2
       font-size: 18px        
     h3
@@ -469,6 +473,7 @@ body
       font-size: 12px
     p
       margin: 0 0 1.234em
+      display: inline
       code
         margin 0 5px
         padding: 0 5px
@@ -720,6 +725,10 @@ body
      font-size 20px
      a
       color: #444
+   .post-meta
+   	  margin-left: 70%
+   .post-content
+   	  padding-top: 3px
   .hidden_mid_and_down
     display: none !important
   .post-archive
@@ -735,6 +744,10 @@ body
   .content_container
     padding-right: 0
   //.body_container
+  .post-meta
+   	  margin-left: 68%
+  .post-content
+   	  padding-top: 3px
   #layout
     padding: 0 20px
   .post-archive
@@ -763,6 +776,10 @@ body
   .post
    .post-title
      font-size 18px
+   .post-meta
+   	  margin-left: 66%
+   .post-content
+   	  padding-top: 3px
   .post-archive
     padding: 0
   .archive-wrap
@@ -875,6 +892,7 @@ body
 .readmore
   text-align: center;
   margin-top: 20px;
+  display: none
   a
     position:relative;
     border: 2px solid #555;

@@ -7,17 +7,15 @@ tags:
 categories: jdbc
 ---
 
-# BeanUtils的使用
-<br/>
-## 一、 简介
+
 
 程序中对javabean的操作很频繁， 所以apache提供了一套开源的api，方便对javabean的操作！即BeanUtils组件。
-<!-- more -->
+
 BeanUtils组件，  作用是简化javabean的操作！
 
 可以从[www.apache.org](www.apache.org)下载BeanUtils组件，然后
 再在项目中引入jar文件！
-
+<!-- more -->
 **使用BenUtils组件：**
 > 1. 引入commons-beanutils-1.8.3.jar核心包
 > 2. 引入日志支持包: commons-logging-1.1.3.jar

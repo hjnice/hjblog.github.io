@@ -7,21 +7,13 @@ tags:
 categories: mysql
 ---
 
-# SQL介绍
-   `Structured Query Language` 结构化查询语言
-    
-### 常用的数据库
-<!-- more -->
-* Oracle 
-* DB2
-* MySQL
-* SQL Server
-    
+SQL：`Structured Query Language` 是结构化查询语言，常用的数据库有Oracle、DB2、MySQL、SQL Server
+ <!-- more -->
 
 ![](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1421471404,1366921536&fm=23&gp=0.jpg)
     
 
-# 数据库的操作
+## 数据库的操作
 <br/>
 ### 创建数据库
 
