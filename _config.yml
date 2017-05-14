@@ -45,6 +45,11 @@ highlight:
   tab_replace:
 
 
+search:
+  path: search.xml
+  field: all
+
+
 # hexo-neat
 neat_enable: true
 neat_html:
@@ -62,6 +67,33 @@ neat_js:
   compress:
   exclude:
     - '*.min.js'
+
+
+
+# About page
+about:
+  photo_url: https://upload.cc/i/hKfj4L.png ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
+  items:
+  - label: email
+    icon: fa-email
+    url: mailto:1450611414@qq.com ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
+    title: 1450611414@qq.com ## Your email e.g.  zhenggchaoo@gmail.com
+  - label: github
+    icon: fa-github
+    url: https://github.com/ihujun ## Your github'url e.g.  https://github.com/chaooo
+    title: hujun ## Your github'name e.g.  chaooo
+  - label: weibo
+    icon: fa-weibo
+    url: http://weibo.com/575168888 ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
+    title: hj ## Your weibo's name e.g.  秋过冬漫长
+ # - label: twitter
+ #   icon: fa-twitter
+ #   url:
+ #   title:
+ # - label: facebook
+ #   icon: fa-facebook
+ #   url:
+ #   title:
 
 
 
