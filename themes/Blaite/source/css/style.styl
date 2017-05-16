@@ -218,7 +218,18 @@ body
       border-bottom: 1px solid #fff
       -webkit-box-shadow: 0 0 10px #adc2d7 inset
       box-shadow: 0 0 10px #adc2d7 inset
-/* sidebar */      
+/* sidebar */
+.tagcloud
+  a
+    line-height: 33px
+    background: url(../img/left.png)
+    padding: 3px 10px 5px 21px
+    margin: 0 4px 4px -2px
+    text-shadow: 1px 1px 0 rgba(256,256,256,0.4)
+    color: #4F4F4F
+    &:hover
+      background: url(../img/left.png) bottom left no-repeat
+      text-decoration: none!important
 #sidebar 
   margin-top: 40px
   word-wrap: break-word
@@ -237,7 +248,7 @@ body
       &:hover 
         //color: #000
         //background: #e6e6e6
-        text-decoration underline
+        text-decoration: underline
     .widget-title,.comments-title
       color: #556
       line-height: 2.7
@@ -249,8 +260,7 @@ body
     .tagcloud
       margin-top: 10px
       a
-        line-height: 1.5
-        padding: 5px
+        
     ul
       list-style: none
       padding: 0
